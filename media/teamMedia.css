@@ -1,0 +1,13 @@
+/* Extra small devices */
+@media (max-width: 576px) { 
+    .dash-title {
+        font-size: 13px;
+    }
+    td {
+        font-size: 12px;
+    }
+    .activity-card {
+        overflow: auto;
+    }
+}
+

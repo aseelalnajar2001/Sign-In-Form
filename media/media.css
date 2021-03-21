@@ -1,0 +1,190 @@
+/* Extra small devices */
+@media (max-width: 576px) { 
+    .sidebar {
+        width:13%;
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+    }
+    .brand, .sidebar-main {
+        display: none;
+    }
+    .sidebar-header{
+        justify-content: center;
+    }
+    .sidebar-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sidebar li:hover {
+        z-index: 1;
+        width: 18%;
+        border-right: none;
+        background-color: none;
+    }
+    /* Main Content */
+    /* Start header */
+    .main-content {
+        position: relative;
+        margin-left: 14%;
+    }
+    header {
+        left: 13%;
+        width: 87%;
+    }
+    .social-icons {
+        width: 70%;
+    }
+    .social-icons a {
+        font-size: 11px;
+    }
+    /* Start main */
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    .dash-title {
+        font-size: 20px;
+    }
+    /* charts */
+    .dash-cards {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .chart {
+        width: 100%;
+        margin-bottom: 7%;
+    }
+    /*  Start the bottom part from main  */
+    .activity-space {
+        display: flex;
+        flex-flow: column wrap; 
+    }
+    .activity-card {
+        width: 100%; 
+    }
+    /* Table */
+    .img-1,
+    .img-2,
+    .img-3 {
+        width: 32px;
+        height: 32px;
+    }
+    th, td {
+        font-size: 10px;
+    }
+    /* chart */
+    .summary {
+        width: 100%;
+    }
+    .myChart  {
+        margin-top: 7%;
+    }
+}
+/* Small devices and medium devices*/
+@media(min-width:576px) and (max-width:991.98px) {
+    .sidebar {
+        width:13%;
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+    }
+    .brand, .sidebar-main {
+        display: none;
+    }
+    .sidebar-header{
+        justify-content: center;
+    }
+    .sidebar-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sidebar li:hover {
+        border-right: none;
+        background-color: none;
+    }
+    /* Main Content */
+    /* Start header */
+    .main-content {
+        position: relative;
+        margin-left: 14%;
+    }
+    header {
+        left: 13%;
+        width: 87%;
+    }
+    .social-icons {
+        width: 70%;
+    }
+    .social-icons a {
+        font-size: 11px;
+    }
+    /* Start main */
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    .dash-title {
+        font-size: 20px;
+    }
+    /* charts */
+    .dash-cards {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .chart {
+        min-width: 40%;
+        margin: 0 3% 5% 0;
+    }
+    /*  Start the bottom part from main  */
+    .activity-space {
+        display: flex;
+        flex-flow: column wrap; 
+    }
+    .activity-card {
+        width: 100%; 
+    }
+    /* Table */
+    .img-1,
+    .img-2,
+    .img-3 {
+        width: 32px;
+        height: 32px;
+    }
+    th, td {
+        font-size: 10px;
+    }
+    /* chart */
+    .summary {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .myChart  {
+        margin-top: 7%;
+    }
+    .bday-card {
+        width: 70%;
+    }
+}
+
+/* Large devices */
+@media(min-width:992px) and (max-width:1199.98px) {
+
+}
+/* Extra Large devices */
+@media(min-width:1200px) {
+
+}
